@@ -1,0 +1,120 @@
+.body{
+    margin: 0;
+    background-color: lightblue;
+}
+
+
+.contenedor{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cabecera{
+    text-align: center;
+}
+
+.links_nav{
+    text-decoration: none;
+    color: black;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+}
+
+.img2{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.navegador{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.final{
+    margin-bottom: 50px;
+}
+
+.pie{
+    background-color: lightseagreen;
+}
+
+.pie p{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.articulos_rutas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.articulos_rutas article{
+    background-color: coral;
+    text-align: center;
+}
+
+.articulos_rutas fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}
+
+.articulos_rutas figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}
+
+.formulario{
+    text-align: center;
+    margin: 40px 70px 50px 70px;
+    
+}
+
+.contacto fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.contacto img{
+    width: 700px;
+    height: 500px;
+}
+
+.contactos_i{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.contactos_i fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservacion</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="body">
+
+    <nav>
+        <ul class="navegador">
+            <li>
+                <a href="/index.html" class="links_nav">Inicio</a>
+            </li>
+
+            <li>
+                <a href="/rutas_turisticas.html" class="links_nav">Rutas turisticas</a>
+            </li>
+
+            <li>
+                <a href="/cultura.html" class="links_nav">Identidad Hondureña</a>
+            </li>
+
+            <li>
+                <a href="/formulario.html" class="links_nav">Reservaciones</a>
+            </li>
+
+            <li>
+                <a href="/contacto.html" class="links_nav">Servicio al cliente</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2 style="text-align: center;">¡Haga su reservacion en 1 segundo!</h2>
+    <main>
+        <form class="formulario">
+            <fieldset>
+                <legend>Reservaciones</legend>
+
+                <div>
+                    <label for="Nombre">Nombre completo</label>
+                    <input type="text" required name="nombre" minlength="10" maxlength="50" placeholder="Ingrese su nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Numero de telefono</label>
+                    <input type="tel" required name="telefono" minlength="9" maxlength="9" placeholder="xxxx-xxxx">
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" required name="correo" minlength="5" maxlength="30" placeholder="ejemplo@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <label for="visitantes">Numero de visitantes</label>
+                    <input type="number" required name="visitantes" minlength="1" maxlength="10" placeholder="adultos y niños">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="recorrido">Que recorrido desea reaizar?</label>
+                    <select name="recorrido" id="Recorrido" required>
+                        <option value="">-- Seleccione el recorrido --</option>
+                        <option value="maya">Ruta maya y arqueologia</option>
+                        <option value="lenca">Ruta Lenca y pueblos con encanto</option>
+                        <option value="ecoturismo">Ecoturismo y bosques nublados</option>
+                        <option value="caribe">Caribe y arrecifes</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="hospedaje">Tipo de hospedaje desedo</label>
+                    <select name="hospedaje" id="Hospedaje" required>
+                        <option value="">-- Seleccione el hospedaje --</option>
+                        <option value="cabania">Cabaña ecologica</option>
+                        <option value="hotel">Hotel colonial</option>
+                        <option value="campamento">Campamento de montaña</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="idioma">¿Busca traductor?</label>
+                    <select name="idioma" id="Idioma" required>
+                        <option value=""> --Elija idioma del traductor-- </option>
+                        <option value="ninguno">Sin traductor</option>
+                        <option value="ingles">Ingles</option>
+                        <option value="frances">Frances</option>
+                        <option value="portugues">Portugues</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>
+                        <input type="checkbox" required>
+                        Me comprometo a cuidar mi comportamiento durante mi visita
+                    </label>
+                </div>
+                <br>
+
+                <div>
+                    <button>Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="pie">
+        Alejandro Martinez 20221031610 UNAH ©
+    </footer>
+    
+</body>
+</html>
